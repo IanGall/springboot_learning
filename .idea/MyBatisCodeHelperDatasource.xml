@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.ian.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/mybatis-plus/demo03/src/main/java" />
+        <option name="javaModelPackage" value="com.ian.bean" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/mybatis-plus/demo03/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="demo03" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="demo01">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.ian.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/mybatis-plus/demo01/src/main/java" />
+                  <option name="javaModelPacakge" value="com.ian.bean" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/mybatis-plus/demo01/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/mybatis-plus/demo01/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="demo02">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.ian.demo02.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/mybatis-plus/demo02/src/main/java" />
+                  <option name="javaModelPacakge" value="com.ian.demo02.bean" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/mybatis-plus/demo02/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.ian.demo02.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/mybatis-plus/demo02/src/main/java" />
+                  <option name="javaServicePackage" value="com.ian.demo02.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/mybatis-plus/demo02/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/mybatis-plus/demo02/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="demo03">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.ian.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/mybatis-plus/demo03/src/main/java" />
+                  <option name="javaModelPacakge" value="com.ian.bean" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/mybatis-plus/demo03/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.ian.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/mybatis-plus/demo03/src/main/java" />
+                  <option name="javaServicePackage" value="com.ian.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/mybatis-plus/demo03/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/mybatis-plus/demo03/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="mybatisPlusIdType" value="NONE" />
+        <option name="removeTablePreName" value="tbl_;mp_;" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="mp:mp_user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="User" />
+                  <option name="moduleName" value="demo02" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mp:tbl_employee">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="Employee" />
+                  <option name="moduleName" value="demo01" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mp:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="User" />
+                  <option name="moduleName" value="demo03" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="userMybatisPlus" value="true" />
+        <option name="xmlMapperPackage" value="mapperxml" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/mybatis-plus/demo03/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

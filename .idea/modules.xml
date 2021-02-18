@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis-plus/demo01/demo01.iml" filepath="$PROJECT_DIR$/mybatis-plus/demo01/demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-plus/demo02/demo02.iml" filepath="$PROJECT_DIR$/mybatis-plus/demo02/demo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-plus/demo03/demo03.iml" filepath="$PROJECT_DIR$/mybatis-plus/demo03/demo03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning_by_springboot.iml" filepath="$PROJECT_DIR$/learning_by_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-plus/mybatis-plus.iml" filepath="$PROJECT_DIR$/mybatis-plus/mybatis-plus.iml" />
+    </modules>
+  </component>
+</project>

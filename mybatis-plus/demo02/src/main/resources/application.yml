@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/mp?useSSL=false&serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+logging:
+  level:
+    root: warn
+    com.ian.demo02.mapper: trace
+  pattern:
+    console: '%p%m%n'
+mybatis-plus:
+  mapper-locations: classpath:mapperxml/*.xml
